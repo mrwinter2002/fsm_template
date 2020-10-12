@@ -1,0 +1,30 @@
+{
+    "name": "fsm_template",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.14.9",
+        "tag": "v0.14.9",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/aef4a4d5453f6bde5ba4cc774ed94f146deb6d68",
+        "target": "1.2.6",
+        "pxt": "5.21.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
